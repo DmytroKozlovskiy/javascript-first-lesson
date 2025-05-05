@@ -1,4 +1,4 @@
-console.log("Hello from module script");
+/* console.log("Hello from module script");
 
 alert(prompt("What is your name"));
 
@@ -11,17 +11,18 @@ alert(`Square area is ${squareSide * 4}`);
 
 const pi = 3.1415926535897932384626433832795;
 const circleRadius = pi * prompt('what is the circle radius?') ** 2;
-alert(`Circle area is ${circleRadius}`);
+alert(`Circle area is ${circleRadius}`); */
 
-const distance =prompt('What is the distance between Odesa and Kyiv?');
+const distance = prompt('What is the distance between Odesa and Kyiv?');
 const time = prompt('How many time you plan spend to?')
-alert(`${distance / time}`)
+const speed = distance / time
+alert(`Your speed is ${speed.toFixed(2)} km/h`); 
 
 // Правильні імена змінних для зберігання імені та прізвища
-let firstName = "Dmytro";
+/* let firstName = "Dmytro";
 let lastName = "Kozlovskyi";
 let userFullName = `${firstName} ${lastName}`;
-let profileName = `${firstName} ${lastName}`;
+let profileName = `${firstName} ${lastName}`; */
 
 // Неправильні імена змінних
 // let 1stName = "Dmytro";        // починається з цифри — SyntaxError
